@@ -80,12 +80,12 @@ Block 2 consists of three units, studied in parallel:
 
 - **Product Two**: Individual App Design and Launch.
 
-  1. Presentation: You will present your creative work to your peers and upload the ‘slide deck’ from the presentation. Presentation will be given on Thursday 8/6/2023, duration 30 minutes. This presentation will be worth 100% of your overall unit mark.
+  1. Presentation: You will present your creative work to your peers and upload the ‘slide deck’ from the presentation. Presentation will be given on Friday 9/6/2023, duration 30 minutes. This presentation will be worth 100% of your overall unit mark.
 
 - **ML Two**: Making Models with Create ML.
 
-  1. Multiple Choice test: students will be presented with a series of questions relating explicitly to course content. They must choose between up to 4 potential correct answers per question. Test will be sat on Friday 2/6/2023. This test will be worth 50% of your overall unit mark.
-  2. Presentation: You will give a presentation around a bespoke ML model to your peers and upload the ‘slide deck’ from the presentation. Presentation will be given on Friday 9/6/2023, duration 30 minutes. This presentation will be worth 50% of your overall unit mark.
+  1. Multiple Choice test: students will be presented with a series of questions relating explicitly to course content. They must choose between up to 4 potential correct answers per question. Test will be sat on Thursday 1/6/2023. This test will be worth 50% of your overall unit mark.
+  2. Presentation: You will give a presentation around a bespoke ML model to your peers and upload the ‘slide deck’ from the presentation. Presentation will be given on Thursday 8/6/2023, duration 30 minutes. This presentation will be worth 50% of your overall unit mark.
 
 Finally, some tips about how to get the best grades possible:
 

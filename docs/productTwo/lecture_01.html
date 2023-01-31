@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-  <title>Diploma in Apple Development 🍎👩🏻‍💻: 2022/2023: Product One: Lecture 1: Introduction</title>
+  <title>Diploma in Apple Development 🍎👩🏻‍💻: 2022/2023: Product Two: Lecture 1: Introduction</title>
   <!-- This whole presentation was made with Big: https://github.com/tmcw/big -->
 
   <link href="../big/big.css" rel="stylesheet" type="text/css" />
@@ -22,45 +22,32 @@
     body {
       background-color: #EDD1B0;
     }
+
   </style>
 </head>
 
 <body>
-  <div>Diploma in Apple Development 🍎👩🏻‍💻: Product One: Lecture 1: Lecture 1: Introduction to the Product One unit.<br /><a href="../index.html">Back to slide index</a>.</div>
+  <div>Diploma in Apple Development 🍎👩🏻‍💻: Product Two: Lecture 1: Introduction to the Product Two unit.<br /><a href="../index.html">Back to slide index</a>.</div>
   <div>Hi!</div>
   <div>First, don't forget to confirm your attendance using the Seats Mobile app!</div>
   <div>Second, I'm going to start every lecture with a meditation from the fantastic <a href="https://www.shambhala.com/sittingstilllikeafrog/">Sitting Still Like a Frog book</a>, all read by Myla Kabat-Zinn. If you don't want to participate that's completely fine.</div>
   <div>
-    <p>What are we going to be doing in Product One? We are going to be using Apple's Swift Explorations syllabus and other Apple resources (particularly around SwiftUI) to make a whole iOS app, in teams. The brief is all around care. You need to make a caring app. But caring for who? How? Could it be around sharing important information? Which communities do you already care about or for?
-      <p>In the second half of the year I'll teach you Product Two. It's solo brief around play - perhaps this could be around making joyful movement? You'll be researching the Swift you need with me along the way. Just like making a real app in the real world.</p>
+    What are we going to be doing in Product Two? This time It's a solo brief around play - making a playful app for the Toad Bakery in Camberwell. Let's take this opportunity to review the <a href="https://github.com/JGL/DiplomaInAppleDevelopment-SpringSummer2023/wiki/Reading-List#product-two-individual-app-design-and-launch">reading list for the unit on the Block Two wiki</a>.
   </div>
-  <div>
-    <p>Some real world reference or inspiration for what goes into making an app:
-      <ul>
-        <li><a href="https://www.andy.works/words/the-most-satisfying-checkbox">How to make the most satisfying checkbox in the world</a>. I want you to be going to this level of thought and consideration on your apps.</li>
-        <li><a href="https://developer.apple.com/documentation/vision/training_a_create_ml_model_to_classify_flowers">How to recognise flowers</a>. What kind of things do you want to recognise in the world? Why?
-        </li>
-        <li><a href="https://developer.apple.com/documentation/vision/tracking_the_user_s_face_in_real_time">How to track the user's face in real time</a>. What could you use this for?
-        </li>
-      </ul>
-    </p>
+  <div>As mentioned on the wiki - you should be making use of the <a href="https://education-static.apple.com/coding-club-kit/appworkbook.key">App Design Workbook</a> throughout the unit. You are going to have to make a 30 minute presentation at the end of this unit. Your aim should be to have a fully launched app by the end of the Block, subject to approval by the Toad Bakery client. You <a href="https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases">should use TestFlight to release and test your app with select users</a>. I'm currently investigating how to get you app store access via the <a href="https://developer.apple.com/programs/ios/university/">iOS Developer University Program</a>.</div>
+  <div>To be clear, it's up to you to keep developing your individual app through the remainder of this unit - I'm going to be teaching you technologies that I think will be useful, but you should be asking me for support in tutorials when you need it. The aim is to be as close as possible to a real solo app developer practice.</div>
+  <div>We are going to start with SwiftUI and then move onto Augmented Reality technologies, before finishing with App distribution, unless there are requests for other technologies - have a think amongst yourselves!</div>
+  <div>We are going to start this unit by learning about <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>, the latest api for creating User Interfaces in the Apple ecosystem.</div>
+  <div>The first tutorial we are going to complete is <a href="https://developer.apple.com/tutorials/swiftui-concepts">Learning SwiftUI</a>.</div>
+  <div>Please complete the following sections from the <a href="https://developer.apple.com/tutorials/swiftui-concepts">Learning SwiftUI</a> tutorial (N.B. you will need the latest Xcode from Apple to complete this tutorial - Xcode 14 or above - not the Xcode 14 beta as the tutorial states):
+    <ul>
+      <li><a href="https://developer.apple.com/tutorials/swiftui-concepts/exploring-the-structure-of-a-swiftui-app">Exploring the structure of a SwiftUI app</a>.</li>
+      <li><a href="https://developer.apple.com/tutorials/swiftui-concepts/specifying-the-view-hierarchy-of-an-app-using-a-scene">Specifying the view hierarchy of an app using a scene</a>.</li>
+      <li><a href="https://developer.apple.com/tutorials/swiftui-concepts/maintaining-the-adaptable-sizes-of-built-in-views">Maintaining the adaptable sizes of built-in views</a>.</li>
+      <li><a href="https://developer.apple.com/tutorials/swiftui-concepts/scaling-views-to-complement-text">Scaling views to complement text</a>.</li>
+      <li><a href="https://developer.apple.com/tutorials/swiftui-concepts/layering-content">Layering content</a>.</li>
+    </ul>
   </div>
-  <div>I'm going to be using Apple's Develop in Swift Explorations (Xcode 13) as the main text for this Unit - so please download it via the Apple Book store. See the course <a href="https://github.com/JGL/DiplomaInAppleDevelopment-AutumnWinter2022/wiki/Reading-List">Wiki Reading List page for more information on where to get the book</a> - I really recommend getting the teacher guide too and downloading the project files for each book too!</div>
-  <div>Let's start by going through the introduction section of Swift Explorations - paying particular attention to how the units are broken up into four sections (Get Started, Play, Build and Design), with Episodes between units. Again, making sure to download the <a href="https://education-static.apple.com/explorations/xcode13/student.zip">student materials that accompany the book</a>.</div>
-  <div>Now let's begin, with "Get Started with Values" - and I'll take you through some extra exercises as we start looking at the exercises in your student guide.</div>
-  <div>Let's start with the "What Is Programming?" section and the Explore This exercise - "Consider your favourite app on your phone" exercise.</div>
-  <div>Next a 15 minute 3 person group session - "Computers in Disguise".</div>
-  <div>Next let's move onto the "Values" section and the Explore This exercise - "Take a photo of an everyday object".</div>
-  <div>Next a 15 minute 3 person group session - "Using Data to Solve Problems".</div>
-  <div>Next let's move onto the "Naming and Identifiers" section and the Explore This exercise - "Compare these two notes".</div>
-  <div>Next a 10 minute 3 person group session - "Naming to Organise Values".</div>
-  <div>Next let's move onto the "Strings" section and the Explore This exercise - "Imagine you’re tasked with creating chatbot responses to the user inputs below."</div>
-  <div>Next a 15 minute 3 person group session - "Concatenating Strings".</div>
-  <div>Next let's move onto the "Constants and Variables" section and the Explore This exercise - "Imagine your life is a program".</div>
-  <div>Next a 15 minute 3 person group session - "Ceteris Paribus".</div>
-  <div>Next let's move onto the "Simulation" section and the Explore This exercise - "Imagine you work as a car safety engineer".</div>
-  <div>Next a 15 minute 3 person group session - "It's All in a Name".</div>
-  <div>Now let's read the next part of the student guide together - 1.2 "Play with Values". This is the first time we are going to try Xcode playgrounds. Let's start with the "Playground Basics" playground.</div>
   <div>
     Thanks!<br /><a href="../index.html">Back to slide index</a>.
   </div>
